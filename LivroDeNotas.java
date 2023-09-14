@@ -1,8 +1,17 @@
 public class LivroDeNotas{
     //variavel de instancia
     //instancia pe sinonimo de objeto
-    String nomeDisciplina;
-
+    //modificadorde acesso
+    private String nomeDisciplina;
+    //metodos gatters/setters
+    //principio do menor privilégio
+    public String getNomeDisciplina(){
+        return nomeDisciplina;
+    };
+    //setter
+    public void setNomeDisciplina(String nomeDisciplina){
+        this.nomeDisciplina;
+    }
     public void exibirMensagem(){
         System.out.printf("Bem vindo ao livro de notas de %s\n", nomeDisciplina);
     }

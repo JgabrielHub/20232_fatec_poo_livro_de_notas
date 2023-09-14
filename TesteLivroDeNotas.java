@@ -6,8 +6,10 @@ public class TesteLivroDeNotas{
         //var: somente java 10
         var livroDeNotas = new LivroDeNotas(nomeDisciplina);
         //livroDeNotas.nomeDisciplina = nomeDisciplina;
-        // enviando a men
+        //enviando a mensagem
         livroDeNotas.exibirMensagem();
+        //livroDeNotas.nomeDisciplina = "Português";
+        System.out.println("A disciplina é: " + livroDeNotas.getNomeDisciplina());
         System.out.println("Fim");
     }
 }
